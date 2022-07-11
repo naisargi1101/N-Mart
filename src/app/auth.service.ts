@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { of } from "rxjs";
+import { of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -7,6 +7,9 @@ import { of } from "rxjs";
 export class AuthService {
   constructor() {}
   login(email: string, password: string) {
-    return of({email, password});
+    return of({ email, password });
+  }
+  register(user: any) {
+    return of(user)
   }
 }

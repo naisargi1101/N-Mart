@@ -12,9 +12,10 @@ import { LoginComponent } from './login/login.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, LoginComponent],
+  declarations: [AppComponent, HomeComponent, LoginComponent, RegisterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
